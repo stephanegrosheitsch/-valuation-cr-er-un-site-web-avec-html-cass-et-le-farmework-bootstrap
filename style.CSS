@@ -47,7 +47,7 @@ h2 {
   text-align: justify;
 }
 
-.jazz, .jeunes, .percussions {
-  border: black;
-  background-color: lightgrey;
+.groupe {
+  align-items: center;
+  border: 1px solid;
 }

@@ -1,0 +1,53 @@
+/************ HEADER ***********/
+
+h1 {
+  color:rgb(56, 56, 85);
+  text-align: center;
+  padding: 120px 0 0 0;
+  animation: titre ease 5s;
+}
+
+@keyframes titre {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+    }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }  
+}
+
+.grooviv {
+  background-color:lightslategray;
+  height: 100vh;
+}
+
+.présentation {
+  margin-top: 10vh;
+}
+
+
+/************* main *************/
+main {
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  font-style: normal;
+}
+
+.présentation {
+  font-size: large;
+  font-style: italic;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.jazz, .jeunes, .percussions {
+  border: black;
+  background-color: lightgrey;
+}

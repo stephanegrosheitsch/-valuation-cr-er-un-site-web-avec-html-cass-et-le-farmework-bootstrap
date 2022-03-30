@@ -29,9 +29,6 @@ h1 {
 
 
 /************* main *************/
-main {
-  height: 100vh;
-}
 
 h2 {
   text-align: center;
@@ -51,8 +48,18 @@ h2 {
   align-items: center;
   border: 1px solid;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .contenu {
   background: lightgrey;
+}
+
+
+/********FOOTER********/
+
+.row-footer {
+  color:white;
+  background: black;
+  height: 100px;
 }

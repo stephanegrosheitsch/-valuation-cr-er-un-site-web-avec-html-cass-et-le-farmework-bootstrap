@@ -50,4 +50,9 @@ h2 {
 .groupe {
   align-items: center;
   border: 1px solid;
+  padding-top: 30px;
+}
+
+.contenu {
+  background: lightgrey;
 }

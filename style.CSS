@@ -1,12 +1,41 @@
-/************ HEADER ***********/
+/*couleur bleu foncé: rgb(56, 56, 85 */
+/*couleur gris clair: lightslategray */
+
+
+body, html, .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+
+/*header*/   
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu a {
+  margin-left: 60px; 
+}
+
+
+
+/*bannière*/
 
 h1 {
   color:rgb(56, 56, 85);
   text-align: center;
-  padding: 120px 0 0 0;
+  text-shadow: 1px 1px 20px lightslategray;
+  padding: 40px 0 0 0;
   animation: titre ease 5s;
 }
-
+/*
 @keyframes titre {
   0% {
     opacity: 0;
@@ -17,22 +46,49 @@ h1 {
     transform: translateY(0px);
   }  
 }
+*/
 
-.grooviv {
-  background-color:lightslategray;
-  height: 100vh;
+
+.banner {
+  max-width: 100%;
+  max-width: 100%;
 }
 
-.présentation {
-  margin-top: 10vh;
+.ban {
+ width: 100%;
+ max-width: 100%; 
+} 
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
 }
 
 
-/************* main *************/
+
+
+/*main*/    
+h3 {
+  text-align: center;
+}
+
+.école {
+  background: lightgrey;
+  width: 100vh;
+}
+
+.colécole {
+  height: 500px;
+  padding-top: 50px;
+}
 
 h2 {
   text-align: center;
   font-style: normal;
+}
+
+h3 {
+  padding-top: 20px;
 }
 
 .présentation {
@@ -46,9 +102,10 @@ h2 {
 
 .groupe {
   align-items: center;
-  border: 1px solid;
+  background-color:lightslategray;
+  border-radius: 5px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 20px;
 }
 
 .contenu {
@@ -56,10 +113,11 @@ h2 {
 }
 
 
+
 /********FOOTER********/
 
 .row-footer {
+  text-align: center;
   color:white;
   background: black;
-  height: 100px;
 }

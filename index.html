@@ -4,83 +4,102 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>créer un site web avec html, css et le farework bootstrap</title>
+
+  <!--<CSS-->
   <link href="style.CSS" rel="stylesheet">
+
+  <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>créer un site web avec html, css et le farework bootstrap</title>
-</head>
-<body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">GroovinBonviv<br>Ville de BONVIVRE</a>
+</head>
+
+
+<body>
+  <!--header-->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">GroovinBonviv<br>"Musique à BONVIVRE"</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ÉCOLE DE MUSIQUE</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                ORCHESTRES
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Le jazzband de bonviv</a></li>
-                <li><a class="dropdown-item" href="#">L'orchestre des jeunes de bonviv</a></li>
-                <li><a class="dropdown-item" href="#">Les percussions de bonviv</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Rechercher</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Rechercher</button>
-          </form>
-        </div>
+        </button>
+        
+      <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#école">ÉCOLE DE MUSIQUE</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ORCHESTRES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Le jazzband de bonviv</a></li>
+              <li><a class="dropdown-item" href="#">L'orchestre des jeunes de bonviv</a></li>
+              <li><a class="dropdown-item" href="#">Les percussions de bonviv</a></li>
+            </ul>
+          </li>
+        </ul>  
       </div>
-    </nav>
-    <div class="grooviv">
-      <h1>GROOVINBONVIV'</h1>
-            <!--  <img src="images/kisspng-graphic-design-line-art-clip-art-musique-5b35fc30aa7cd1.1656048915302646246983.png" alt="groovinbonviv" height="400px" width="350px">-->    
-        <div class="container présentation">
-          <div class="row">
-            <div class="col">
-              <h2>What is Lorem Ipsum?</h2> 
-                <p class="intro">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   
-                </p>
-            </div>
-          </div>
-        </div>  
     </div>
   </header>
+  <!--end header-->
 
-  <main class="contenu">
-    <div class="container-fluid">
+  <!--bannière-->
+  <section class="container-fluid banner">
+    <div class="ban">
+      <img src="images/the-teen-music-band-performing-in-recording-studio.jpg" alt="bannière">
+    </div>
+    <div class="inner-banner">
+      <h1>GROOVINBONVIV'</h1> 
+      <button class="btn btn-custom">Contactez nous !</button>
+    </div>
+  </section>
+  <!--end bannière-->
+ 
+
+
+
+
+  <!--main-->
+  <main class="container-fluid contenu">
+    <div class="container">
       <div class="row justify-content-around">
-        <div class="col-md-5 col-lg-3 groupe">
-          <h3>Le jazzband de bonviv</h3>
-          <p>
+        <div class="col-md-6 col-lg-8 col-sm-12 colécole">
+          <h3 id="école">École de musique</h3>
+            <p class="intro">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of usig Lorem Ipsum is that it has a more-or-less normal distribution
+            making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+            as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+          <button type="button" class="btn btn-outline-primary col-lg-3">Inscription</button>
+        </div>
+        <hr class="separateur">
+      </div>
+
+
+      <div class="row justify-content-center">   
+        <h3>Les orchestres de Groovinbonviv'</h3>
+        <div class="col-sm-12 col-md-5 col-lg-3 groupe">
+          <h5>Le jazzband de bonviv</h5>
+          <p class="intro">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
             to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. 
+            remaining essentially unchanged.
           </p>
-          <img src="images/jazz-g25da13e02_1920.jpg" class="img-fluid">     
+          <img src="images/jazz-g25da13e02_1920.jpg" class="img-fluid">               
         </div>
         
-        <div class="col-md-5 col-lg-3 groupe">
-          <h3>L'orchestre des jeunes de bonviv</h3>
-          <p>
+        <div class="col-sm-12 col-md-5 col-lg-3 groupe">
+          <h5>L'orchestre des jeunes de bonviv</h5>
+          <p class="intro">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
             to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
@@ -89,9 +108,9 @@
           <img src="images/child-g8a2d95290_1920.jpg" class="img-fluid">
         </div>
 
-        <div class="col-md-5 col-lg-3 groupe">
-          <h3>Les percussions de bonviv</h3> 
-          <p>
+        <div class="col-sm-12 col-md-5 col-lg-3 groupe">
+          <h5>Les percussions de bonviv</h5> 
+          <p class="intro">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
             to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
@@ -102,10 +121,62 @@
       </div>
     </div>  
   </main>
+  <!--end main-->
 
+  <!--portfolio-->
+  <section class="container-fluid portfolio">
+    <div class="container">
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+      <article class="col-md-3 col-sm-12">
+        <img src="" alt="">
+      </article>
+    </div>
+  </section>
+
+
+  <!--footer-->
   <footer class="row row-footer">
-    <h4>réseau sociaux (à venir)</h4>
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <form>
+            <div class="controls controls-row">
+              <input id="name" name="name" type="text" class="span3" placeholder="Name"> 
+              <input id="email" name="email" type="email" class="span3" placeholder="Email address">
+            </div>
+            <div class="controls">
+              <textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+            </div>
+              
+            <div class="controls">
+              <button id="contact-submit" type="submit" class="btn btn-primary input-medium pull-right">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </footer>
+  <!--end footer-->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
   integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

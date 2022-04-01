@@ -1,7 +1,7 @@
 /*couleur bleu foncé: rgb(56, 56, 85 */
 /*couleur gris clair: lightslategray */
 
-
+/*font-family*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
@@ -92,10 +92,6 @@ h2 {
   width: 100%;
 }
 
-.présentation {
-  
-}
-
 .intro {
   text-align: justify;
   font-size: large;
@@ -105,17 +101,13 @@ h2 {
 
 /*all main*/
 .allMain {
-  padding: 0;
+  padding: 20px;
   margin: 0;
   background-color: lightgray;
 }
 
 
 /*main left part*/  
-.mainLeft {
-
-}
-
 .leftPart {
   border: solid 1px;
   border-radius: 10px;
@@ -144,6 +136,31 @@ h2 {
   -webkit-line-clamp: 5;
   overflow: hidden;
 }
+
+
+
+/*main right part*/
+.rightPart {
+  border: 1px solid;
+  border-color: lightslategray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tips {
+  width: 200px;
+  height: 200px;
+  margin: 20px ;
+}
+
+.tips h6 {
+  position: relative;
+  top: 80%;
+  color: white;
+  padding-left: 50px;
+  text-shadow: 1px 1px 20px black;
+}
+
 
 
 

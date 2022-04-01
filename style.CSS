@@ -2,18 +2,14 @@
 /*couleur gris clair: lightslategray */
 
 
-body, html, .container-fluid {
-  padding: 0;
-  margin: 0;
-}
-
-.container-fluid {
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    h1 {
+      font-family: 'Permanent Marker', cursive;
+    }
 
 
 
-/*header*/   
+/*header*/  
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -21,21 +17,34 @@ body, html, .container-fluid {
 }
 
 .menu a {
-  margin-left: 60px; 
+  margin-left: 70px; 
 }
 
 
 
 /*bannière*/
 
-h1 {
-  color:rgb(56, 56, 85);
+
+
+#imageBannière {
+  background: url(images/the-teen-music-band-performing-in-recording-studio.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding-top: 700px;
+  justify-content:center;
+
+}
+
+.titre {
+  position: absolute;
+  top: 60%;
   text-align: center;
-  text-shadow: 1px 1px 20px lightslategray;
-  padding: 40px 0 0 0;
+  letter-spacing: 4px;
+  color:lightslategray;
+  text-shadow: 1px 1px 2px lightslategray;
+  padding: 0 0 0 0;
   animation: titre ease 5s;
 }
-/*
+
 @keyframes titre {
   0% {
     opacity: 0;
@@ -46,28 +55,10 @@ h1 {
     transform: translateY(0px);
   }  
 }
-*/
-
-
-.banner {
-  max-width: 100%;
-  max-width: 100%;
-}
-
-.ban {
- width: 100%;
- max-width: 100%; 
-} 
-
-.ban img {
-  width: 100%;
-  max-width: 100%;
-}
 
 
 
-
-/*main*/    
+/*main*/  
 h3 {
   text-align: center;
 }

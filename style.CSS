@@ -3,9 +3,25 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-    h1 {
-      font-family: 'Permanent Marker', cursive;
-    }
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button {
+  text-align: right;
+}
 
 
 
@@ -23,9 +39,6 @@
 
 
 /*bannière*/
-
-
-
 #imageBannière {
   background: url(images/the-teen-music-band-performing-in-recording-studio.jpg) no-repeat 50% 50%;
   background-size: cover;
@@ -35,14 +48,14 @@
 }
 
 .titre {
+  font-family: 'Permanent Marker', cursive;
   position: absolute;
   top: 60%;
   text-align: center;
   letter-spacing: 4px;
   color:lightslategray;
   text-shadow: 1px 1px 2px lightslategray;
-  padding: 0 0 0 0;
-  animation: titre ease 5s;
+  animation: titre ease 4s;
 }
 
 @keyframes titre {
@@ -58,49 +71,78 @@
 
 
 
-/*main*/  
-h3 {
-  text-align: center;
-}
-
+/*école de musique*/
 .école {
-  background: lightgrey;
+  background:lightgray;
   width: 100vh;
 }
 
 .colécole {
-  height: 500px;
-  padding-top: 50px;
-}
-
-h2 {
-  text-align: center;
-  font-style: normal;
-}
-
-h3 {
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.colécole .btn-custom {
+  background-color: lightslategray;
+  color:aliceblue;
+}
+
+.separator {
+  background-color:lightslategray;
+  width: 100%;
 }
 
 .présentation {
-  font-size: large;
-  font-style: italic;
+  
 }
 
 .intro {
   text-align: justify;
+  font-size: large;
 }
 
-.groupe {
-  align-items: center;
-  background-color:lightslategray;
-  border-radius: 5px;
-  padding-top: 30px;
-  margin: 20px;
+
+
+/*all main*/
+.allMain {
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
 }
 
-.contenu {
-  background: lightgrey;
+
+/*main left part*/  
+.mainLeft {
+
+}
+
+.leftPart {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: lightslategray;
+  padding: 25px;
+}
+
+.elements {
+  padding: 70px 0;
+}
+
+.elements img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.elements .btn-custom {
+  background-color: lightslategray;
+  color:aliceblue;
+}
+
+.elements p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
 }
 
 

@@ -1,5 +1,7 @@
 /*couleur bleu foncé: rgb(56, 56, 85 */
 /*couleur gris clair: lightslategray */
+/*couleur gris/rouge: rgb(117, 110, 110)*/
+/*couleur yellow gold: #ffc107 */
 
 /*font-family*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -71,8 +73,9 @@ h2 {
 
 
 
-/*école de musique*/
+/*école de musique */
 .école {
+  padding: 200px;
   background:lightgray;
   width: 100vh;
 }
@@ -99,20 +102,10 @@ h2 {
 
 
 
-/*all main*/
-.allMain {
+/*main*/
+.main {
   padding: 20px;
-  margin: 0;
   background-color: lightgray;
-}
-
-
-/*main left part*/  
-.leftPart {
-  border: solid 1px;
-  border-radius: 10px;
-  border-color: lightslategray;
-  padding: 25px;
 }
 
 .elements {
@@ -139,19 +132,20 @@ h2 {
 
 
 
-/*main right part*/
-.rightPart {
-  border: 1px solid;
-  border-color: lightslategray;
-  border-radius: 10px;
-  padding: 20px;
+/*portfolio*/
+.portfolio {
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
+.portfolioImg {
+  height: 800px;
+  background-color: rgb(219, 48, 48);
+  border: 2px solid;
+  border-color: #ffc107;
+  border-radius: 5px;
+  padding-top: 15px;
 }
 
-.tips {
-  width: 200px;
-  height: 200px;
-  margin: 20px ;
-}
 
 .tips h6 {
   position: relative;
@@ -161,8 +155,28 @@ h2 {
   text-shadow: 1px 1px 20px black;
 }
 
+.oboe {
+  position: relative;
+}
 
+.violon {
+  position: relative;
+  padding-top: 90px;
+}
 
+.piano {
+  position: relative;
+  padding-top: 150px;
+}
+
+.guitare {
+  position: relative;
+  padding-top: 45px;
+}
+
+.voix {
+  position: relative;
+}
 
 /********FOOTER********/
 

@@ -25,6 +25,11 @@ h2 {
   text-align: right;
 }
 
+.separator {
+  background-color:#ffc107;
+  width: 100%;
+}
+
 
 
 /*header*/  
@@ -90,11 +95,6 @@ h2 {
   color:aliceblue;
 }
 
-.separator {
-  background-color:lightslategray;
-  width: 100%;
-}
-
 .intro {
   text-align: justify;
   font-size: large;
@@ -133,15 +133,20 @@ h2 {
 
 
 /*portfolio*/
+.souvenir {
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+}
+
 .portfolio {
   background-color: lightgray;
   padding-bottom: 20px;
 }
 .portfolioImg {
   height: 800px;
-  background-color: rgb(219, 48, 48);
+  background-color: #ffc107;
   border: 2px solid;
-  border-color: #ffc107;
+  border-color: lightslategray;
   border-radius: 5px;
   padding-top: 15px;
 }
@@ -150,33 +155,39 @@ h2 {
 .tips h6 {
   position: relative;
   top: 80%;
-  color: white;
+  color: lightslategray;
   padding-left: 50px;
   text-shadow: 1px 1px 20px black;
 }
 
 .oboe {
   position: relative;
+  
 }
 
 .violon {
   position: relative;
   padding-top: 90px;
+  
 }
 
 .piano {
   position: relative;
   padding-top: 150px;
+  
 }
 
 .guitare {
   position: relative;
   padding-top: 45px;
+  
 }
 
 .voix {
-  position: relative;
+  position:relative;
+  margin-bottom: 30px;
 }
+
 
 /********FOOTER********/
 

@@ -15,14 +15,33 @@ body {
   margin: 0;
 }
 
+.intro {
+  line-height: 1.6;
+}
+
 h2 {
   font-family: 'Old Standard TT', serif;
   text-align: center;
   padding-top: 20px;
 }
 
-.button {
-  text-align: right;
+.btn-custom {
+  float: right;
+}
+
+.btn-custom  a {
+  padding: 10px 20px;
+  background-color: lightslategray;
+  color:beige;
+  text-decoration: none;
+  border-radius: 5px;
+}  
+
+
+
+.btn-custom:hover a {
+  color: black;
+  background-color: #ffc107;
 }
 
 .separator {
@@ -39,19 +58,25 @@ h2 {
   letter-spacing: 1px;
 }
 
-.menu a {
-  margin-left: 70px; 
+.menu {
+  padding-right: 40px;
+}
+
+.nav-item {
+  padding-right: 20px;
 }
 
 
 
 /*bannière*/
 #imageBannière {
-  background: url(images/the-teen-music-band-performing-in-recording-studio.jpg) no-repeat 50% 50%;
+  background: url(images/image-bannière.jpg) no-repeat 50% 50%;
   background-size: cover;
   padding-top: 700px;
   justify-content:center;
+  background-attachment: fixed;
 
+  
 }
 
 .titre {
@@ -61,7 +86,7 @@ h2 {
   text-align: center;
   letter-spacing: 4px;
   color:lightslategray;
-  text-shadow: 1px 1px 2px lightslategray;
+  text-shadow: 1px 1px 2px #ffc107;
   animation: titre ease 4s;
 }
 
@@ -80,7 +105,7 @@ h2 {
 
 /*école de musique */
 .école {
-  padding: 200px;
+  padding: 100px;
   background:lightgray;
   width: 100vh;
 }
@@ -88,11 +113,6 @@ h2 {
 .colécole {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.colécole .btn-custom {
-  background-color: lightslategray;
-  color:aliceblue;
 }
 
 .intro {
@@ -103,8 +123,13 @@ h2 {
 
 
 /*main*/
+h3 {
+  font-family: 'Old Standard TT', serif;
+}
+
 .main {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   background-color: lightgray;
 }
 
@@ -118,11 +143,6 @@ h2 {
   border-radius: 3px;
 }
 
-.elements .btn-custom {
-  background-color: lightslategray;
-  color:aliceblue;
-}
-
 .elements p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -133,66 +153,51 @@ h2 {
 
 
 /*portfolio*/
+.portfolio h2 {
+  margin-bottom: 50px;
+}
+
 .souvenir {
   font-family: 'Old Standard TT', serif;
   text-align: center;
 }
 
 .portfolio {
-  background-color: lightgray;
-  padding-bottom: 20px;
+  background-color: lightslategray;
+  padding: 50px;
 }
-.portfolioImg {
-  height: 800px;
-  background-color: #ffc107;
-  border: 2px solid;
+
+.mosaic {
+  margin-left: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*width: 1100px;*/
+  background: linear-gradient(to bottom,lightslategray,  #ffc107);
+  border: 1px solid;
   border-color: lightslategray;
   border-radius: 5px;
-  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-
-.tips h6 {
-  position: relative;
-  top: 80%;
-  color: lightslategray;
-  padding-left: 50px;
-  text-shadow: 1px 1px 20px black;
-}
-
-.oboe {
-  position: relative;
-  
-}
-
-.violon {
-  position: relative;
-  padding-top: 90px;
-  
-}
-
-.piano {
-  position: relative;
-  padding-top: 150px;
-  
-}
-
-.guitare {
-  position: relative;
-  padding-top: 45px;
-  
-}
-
-.voix {
-  position:relative;
-  margin-bottom: 30px;
-}
 
 
 /********FOOTER********/
-
-.row-footer {
+.footer {
   text-align: center;
   color:white;
-  background: black;
+  padding-bottom: 30px;
+  background-color: rgba(33, 37, 41, 1);
+}
+
+.formulaire {
+  width: 500px;
+  display: inline-block;
+  justify-content: center;
+}
+
+@media screen and (max-width : 509px) {
+  .formulaire {
+    width: 370px;
+  } 
 }

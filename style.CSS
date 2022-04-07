@@ -1,4 +1,4 @@
-/*couleur bleu foncé: rgb(56, 56, 85 */
+/*couleur nav&footer: rgba(33, 37, 41, 1) */
 /*couleur gris clair: lightslategray */
 /*couleur gris/rouge: rgb(117, 110, 110)*/
 /*couleur yellow gold: #ffc107 */
@@ -37,8 +37,6 @@ h2 {
   border-radius: 5px;
 }  
 
-
-
 .btn-custom:hover a {
   color: black;
   background-color: #ffc107;
@@ -51,7 +49,7 @@ h2 {
 
 
 
-/*header*/  
+/*header***************************************************************************************************************/  
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -68,7 +66,7 @@ h2 {
 
 
 
-/*bannière*/
+/*bannière*************************************************************************************************************/
 #imageBannière {
   background: url(images/image-bannière.jpg) no-repeat 50% 50%;
   background-size: cover;
@@ -101,7 +99,7 @@ h2 {
 
 
 
-/*école de musique */
+/*école de musique ****************************************************************************************************/
 .école {
   padding: 100px;
   background:lightgray;
@@ -120,7 +118,7 @@ h2 {
 
 
 
-/*main*/
+/*main*****************************************************************************************************************/
 h3 {
   font-family: 'Old Standard TT', serif;
 }
@@ -148,13 +146,9 @@ h3 {
   overflow: hidden;
 }
 
-/*main (elements.html)*/
-.festival {
-  background: linear-gradient(to bottom,lightslategray,  #ffc107);
-}
 
 
-/*portfolio*/
+/*portfolio************************************************************************************************************/
 .portfolio h2 {
   margin-bottom: 50px;
 }
@@ -174,7 +168,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*width: 1100px;*/
   background: linear-gradient(to bottom,lightslategray,  #ffc107);
   border: 1px solid;
   border-color: lightslategray;
@@ -184,7 +177,7 @@ h3 {
 
 
 
-/********FOOTER********/
+/********FOOTER********************************************************************************************************/
 .footer {
   text-align: center;
   color:white;
@@ -203,3 +196,27 @@ h3 {
     width: 370px;
   } 
 }
+
+
+
+/*(elements.html)******************************************************************************************************/
+.festival {
+  background: linear-gradient(to bottom,lightslategray,  #ffc107);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.informtions {
+  text-align: center;
+  font-family: 'Old Standard TT', serif;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: lightslategray;
+  padding:100px;
+}
+
+.articles {
+  border-left: 1px solid;
+  border-color: lightslategray;
+}
+

@@ -21,7 +21,8 @@
   <!--header-->
   <header class="navbar navbar-expand-lg navbar-dark bg-dark">
     <nav class="container-fluid">
-      <a class="navbar-brand logo" href="#">GroovinBonviv' event</a>
+  
+    <a class="navbar-brand logo" href="#">GroovinBonviv' event - 24 juillet 2022</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,23 +30,13 @@
       <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#accueil">ACCUEIL</a>
+            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/index.html?#accueil">ACCUEIL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#école">ÉCOLE DE MUSIQUE</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ORCHESTRES
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#jazz">Le jazzband de bonviv</a></li>
-              <li><a class="dropdown-item" href="#orchestre">L'orchestre des jeunes de bonviv</a></li>
-              <li><a class="dropdown-item" href="#percussion">Les percussions de bonviv</a></li>
-            </ul>
+            <a class="nav-link" href="#programmation">PROGRAMMATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="#../événements.html">ÉVÉNEMENTS</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>  
       </div>
@@ -54,14 +45,111 @@
   <!--end header-->
 
   <!--bannière-->
-  <div id="imageBannière">
+  <div id="imageBannière">    
     <div class="container-fluid titre">
-      <h1 class="title-groovinbonviv">FESTIVAL DE GROOVINBONVIV'</h1>
+      <h1 class="title-groovinbonviv">FESTIVAL DE GROOVINBONVIV'<br>
+        <p>24 juillet 2022</p>
     </div>
   </div>
   <!--end bannière-->
 
-  
+   <!--école de musique-->
+   <section class="container-fluid école">   
+    <div class="row justify-content-around">
+      <div class="col-md-6 col-lg-8 col-sm-12 colécole">
+          <p>FESTIVAL DE GROOVINBONVIV'</p>
+          <p>24 juillet 2022</p>
+          <p>20h</p>
+          <p>salle des fêtes de Bonvivre</p>
+          <p>place de la fiesta</p>
+          <p>69469 BONVIVRE</p>
+      </div>
+    </div>
+  </section>
+  <!--end école de musique-->
+
+  <!--main-->
+  <main class="container-fluid festival">
+    <div class="row">
+      <div class="container col-md-12 col-lg-8 programmation">
+        <h2 id="programmation">Programmation</h2>
+        
+        <section class="row groupe1 elements">
+          <div class="col-md-4" id="jazz">
+            <img src="https://d1k4bi32qf3nf2.cloudfront.net/product/2021/06/40x60onj2021_partenaires_1623682323.jpg" alt="orchestre national de jazz">
+          </div>           
+          <div class="col-md-8">
+            <h3>L'orchestre national de jazz</h3>
+            <p><a href="https://www.onj.org/en/" target="_blank">https://www.onj.org/en/</a></p>
+            <p class="intro">
+              Cette année, nous avons le plaisir d'accueillir l'ONJ pour notre festival. Vous pourrez à cette occasion, découvrir
+              ou redécouvrir cet orchestre mythique!<br>Cette saison c'est le talentueux Frédéric Maurin à la direction artistique, 
+              la composition ainsi qu'à la guitare électrique,...
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+              remaining essentially unchanged.
+            </p>            
+            <button type="button" class="btn btn-custom">
+              <a href="#contact">
+                contact
+              </a>
+            </button>     
+          </div>
+        </section>
+          
+        <section class="row groupe2 elements">
+          <div class="col-sm-4" id="jazz">
+            <img src="images/collectifgroovin.jpg" alt="orchestre collectifgroovin">
+          </div>           
+          <div class="col-sm-8">
+            <h3>L'école de musique présente le collectifgroovin'</h3>
+            <p class="intro">
+              En première partie, nous vous avons concoctés une surprise!
+              C'est le collectifgroovin' crée pour l'occasion qui ne manquera pas de vous...
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+              remaining essentially unchanged.
+            </p>            
+            <button type="button" class="btn btn-custom">
+              <a href="#contact">
+                contact
+              </a>
+            </button>     
+          </div>
+        </section>
+
+      </div>
+
+      <div class="container col-md-12 col-lg-4 articles">
+        <h2>Extrait vidéo</h2> 
+
+        <aside class="row article1 elements">
+          <div class="col">
+            <h3>L'ONJ "Dans le labo de dracula</h3>   
+            <iframe width="375px" height="210px" src="https://www.youtube.com/embed/YH_8u5pZWg0" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+          </div>
+        </aside>
+          
+      
+        <aside class="row article2 elements">
+          <div class="col">
+            <h3>L'ONJ "DANCING IN YOUR HEAD(S) • Live Studio Session"</h3>
+            <iframe width="375" height="210" src="https://www.youtube.com/embed/xkc5R3RSXKo" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+  <!--end main-->
 
   <!--footer-->
   <footer class="footer">

@@ -17,6 +17,8 @@ body {
 
 .intro {
   line-height: 1.6;
+  text-align: justify;
+  font-size: large;
 }
 
 h2 {
@@ -49,16 +51,26 @@ h2 {
 
 
 
+
+
 /*header***************************************************************************************************************/  
+.navbar {
+  align-items: center;
+  
+}
+
 .logo {
+  color:white;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .menu {
-  padding-right: 40px;
+  width: 100vh;
 }
+
+
 
 .nav-item {
   padding-right: 20px;
@@ -109,11 +121,6 @@ h2 {
 .colécole {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.intro {
-  text-align: justify;
-  font-size: large;
 }
 
 
@@ -200,12 +207,6 @@ h3 {
 
 
 /*(elements.html)******************************************************************************************************/
-.festival {
-  background: linear-gradient(to bottom,lightslategray,  #ffc107);
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
 .informtions {
   text-align: center;
   font-family: 'Old Standard TT', serif;
@@ -213,6 +214,12 @@ h3 {
   font-weight: bold;
   background-color: lightslategray;
   padding:100px;
+}
+
+.festival {
+  background: linear-gradient(to bottom, lightslategray, rgb(218, 224, 231));
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .articles {

@@ -35,10 +35,11 @@ Outils, languages, documentations utilisés:
     -vérification du code html
   
 
+Note au correcteur:
 
+S'il vous plaît, pourriez-vous me donner un exemple d'une branch supplémentaire avec une réécriture de l'historique, un fichier .gitignore (je n'est pas compris son utilité!) 
+et si vous trouvez le temps, une proposition de style un peu plus avancée ?
+merci d'avance
 
-
-garder menu identique sur les dfférentes page du site
-
-3 clics ( 2)
+Stéphane
 

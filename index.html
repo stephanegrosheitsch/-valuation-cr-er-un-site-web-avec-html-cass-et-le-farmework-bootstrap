@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta class="description" content="groovinbonviv est une association musical de la ville de Bonviv. ( 150 à 180 caractères )">
-  <title>créer un site web avec html, css et le farework bootstrap"ASSOCIATION GROOVINBONVIV</title>
+  <meta class="description" content="groovinbonviv est une association musical de la ville de Bonvivre... ( 150 à 180 caractères )">
+  <title>créer un site web avec html, css et le farework bootstrap"ASSOCIATION GROOVINBONVIV"</title>
 
   <!--<CSS-->
   <link href="style.CSS" rel="stylesheet">
@@ -20,8 +20,8 @@
   
   <!--header-->
   <header class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-    <nav class="container-fluid navbar">
-      <a class="navbar-brand logo" href="">GroovinBonviv'</a>kou
+    <nav class="container-fluid navbar" id="hautDePage">
+      <a class="navbar-brand logo" href="index.html">GroovinBonviv'</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
             <a class="nav-link" href="evenements.html">ÉVÉNEMENTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="evenements.html">PROGRAMMATION</a>
+            <a class="nav-link" href="evenements.html#programmation">PROGRAMMATION</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">CONTACT</a>
@@ -86,6 +86,15 @@
             contact
           </a>
         </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="retour">
+        <a href="#hautDePage" class="boutton-retour">
+          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+        </a>
       </div>
     </div>
   </section>
@@ -164,7 +173,6 @@
 
   <!--mosaic-->
   <article class="container-fluid portfolio">
-    <h2>Un peu de nous en images</h2>
 
     <div class="container mosaic">
      
@@ -186,7 +194,7 @@
 
     </div>
   </article>  
-  <!--end mosaic-->      
+  <!--end mosaic-->    
 
   <!--footer-->
   <footer class="footer">
